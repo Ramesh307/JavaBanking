@@ -45,8 +45,8 @@
     Choose an option below to perform a transaction
 
    </small>
-   <select name="transaction-type" class="form-control my-3" id="transaction-type">
-    <option value="">--Select an option below to perform a transaction</option>
+   <select name="transact-type" class="form-control my-3" id="transact-type">
+    <option value="">--Select an option below to perform a transaction--</option>
     <option value="payment">Payment</option>
     <option value="transfer">Transfer</option>
     <option value="deposit">Deposit</option>
@@ -71,6 +71,7 @@
         <option value="">--Select Account--</option>
 
       </select>
+    </div>
       <div class="form-group mb-2">
         <label for="">Reference</label>
         <input type="text" name="reference" id="" class="form-control" placeholder="Enter the reference">
@@ -83,44 +84,35 @@
       </div>
 
       <div class="form-group mb-2">
-        <button id="transact-btn" class="btn btn-md" >Pay</button>
+        <button id="transact-btn" class="btn" >Pay</button>
       
       </div>
-    </div>
+   
   </div>
 </div>
-    
-<!--Card transfer payment-->
+
 <div class="card transfer-card">
-  <div class="card-body">
-    
-    <div class="form-group">
-      <label for="">Select Account</label>
-      <select name="account_id" class="form-cotrol" id="">
-        <option value="">--Select Account--</option>
-
-      </select>
-      </div>
-
-      <div class="form-group">
-        <label for="">Select Account</label>
-        <select name="account_id" class="form-cotrol" id="">
-          <option value="">--Select Account--</option>
+<div class="card-body">
   
-        </select>
-        </div>
-      
-      <div class="form-group mb-2">
-        <label for="">Enter transfer Amount</label>
-        <input type="text" name="transfer_amount" id="" class="form-control" placeholder="Enter the payment Amount">
-      
-      </div>
+  <div class="form-group">
+    <label for="">Select Account</label>
+    <select name="account_id" class="form-cotrol" id="">
+      <option value="">--Select Account--</option>
 
-      <div class="form-group mb-2">
-        <button id="transact-btn" class="btn btn-md" >Pay</button>
-      
-      </div>
+    </select>
   </div>
+    <div class="form-group mb-2">
+      <label for="">Enter transfer Amount</label>
+      <input type="text" name="transfer_amount" id="" class="form-control" placeholder="Enter the transfer Amount">
+    
+    </div>
+
+    <div class="form-group mb-2">
+      <button id="transact-btn" class="btn" >Pay</button>
+    
+    </div>
+ 
+</div>
 </div>
     
   </div>
