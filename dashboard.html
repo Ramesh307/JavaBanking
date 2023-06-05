@@ -174,11 +174,35 @@
 </div>
 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
   <div class="offcanvas-header">
-    <h5 id="offcanvasRightLabel">Add New User</h5>
+    <h5 id="offcanvasRightLabel" class="text-white">Create/Add an Account</h5>
     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
-  <div class="offcanvas-body text-white">
-    Accounts form Container
+  
+    <div class="offcanvas-body">
+      <div class="card">
+      <form action="" class="add-action-form">
+        <div class="form-group mb-3" >
+          <label for="">Enter Account Name:</label>
+          <input type="text" name="account_name" class="form-control" placeholder="Enter Account Name">
+        </div>
+        <div class="form-group mb-3">
+          <label for="">Select Account Type</label>
+          <select name="account_type" class="form-control" id="">
+            <option value="">--Select Account Type--</option>
+            <option value="check">Check</option>
+            <option value="saving">Saving</option>
+            <option value="business">business</option>
+          </select>
+        </div>
+          <div class="form-group my-2">
+          <button id="transact-btn" class="btn" >Add Account</button>
+        
+        </div>
+      </div>
+       
+      </form>
+    </div>
+  </div>
   </div>
 </div>
 <!-- Container -->
