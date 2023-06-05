@@ -71,11 +71,6 @@ body{
     color: white;
 }
 
-/*  <!-- Card: Payment Card --> */
-.payment-card{
-    display: none;
-}
-
 /*  <!-- Card: transfer Card --> */
 .transfer-card{
     display: none;
@@ -87,6 +82,28 @@ body{
 }
 
 /*  <!-- Card: withdraw Card --> */
+.withdraw-card{
+    display: none;
+}
+
+.transact-btn{
+    background-color: #FF4E00;
+    border: 1px solid #8B2B00;
+    color: white;
+}
+/* <!--Card: Payment Card--> */
+.payment-card{
+    display: none;
+}
+/* <!--Card: transfer Card--> */
+.transfer-card{
+    display: none;
+}
+/* <!--Card: deposit Card--> */
+.deposit-card{
+    display: none;
+}
+/* <!--Card: withdraw Card--> */
 .withdraw-card{
     display: none;
 }
